@@ -76,7 +76,7 @@
         transition: background-color 0.3s, transform 0.2s;
       }
       .refresh-button:hover {
-        background-color: #e64a19;
+        background-color: black;
         transform: scale(1.05);
       }
       .refresh-button:active {
@@ -99,12 +99,12 @@
           font-size: 14px;
         }
         .blague-container {
-          font-size: 16px;
+          font-size: 32px;
           padding: 15px;
         }
         .refresh-button {
-          font-size: 16px;
-          padding: 10px 15px;
+          font-size: 20px;
+          padding: 10px 32px;
         }
       }
 
@@ -127,8 +127,8 @@
           padding: 12px;
         }
         .refresh-button {
-          font-size: 14px;
-          padding: 8px 12px;
+          font-size: 20px;
+          padding: 16px 52px;
         }
       }
     </style>
@@ -140,8 +140,8 @@
       <div class="calendar-days">{{ jours }}</div>
       <div class="calendar-text">jours</div>
     </div>
-    <br /><br /><br /><br />
-    <h3>Des petites blagues pour patienter :</h3>
+    <br /><br />
+    <h3>Des petites blagues pour patienter</h3>
 
     <div class="blague-container">
       <h4 id="blague-titre">{{ blague.titre }}</h4>
